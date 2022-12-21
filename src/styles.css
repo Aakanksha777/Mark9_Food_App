@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  background-image: url("");
+}
+p {
+  font-size: 13px;
+}
+button {
+  cursor: pointer;
+  background-color: gainsboro;
+  padding: 0.75em;
+  border: none;
+  margin: 0.5em;
+  border-radius: 10px;
+  font-size: 18px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  margin: 2em;
+}
+li {
+  list-style: none;
+  font-size: 20px;
+  padding: 0.5em;
+  margin: 0.5em;
+  /* border: 2px solid darkgray; */
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upper-container {
+  padding: 2em;
+  margin: 2em;
+}
+.foodName {
+  font-size: 30px;
+}
+
+.foodPrice {
+  font-size: 15px;
+}
